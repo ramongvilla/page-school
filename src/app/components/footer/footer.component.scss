@@ -1,0 +1,36 @@
+footer.footer-box{
+
+  background-color: #3c3f42;
+  color: #fff;
+  // width: 80%;
+  // margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .wrapper-info{
+
+  }
+}
+.container-bottom{
+  gap: 1rem;
+
+  .box-img-footer,.wrapper-maps{
+    overflow: hidden;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    background: salmon;
+
+  }
+  .wrapper-maps{
+// width: 100%;
+  }
+}
+.iframe{
+
+}
+
+span{
+  color: #fff;
+
+}

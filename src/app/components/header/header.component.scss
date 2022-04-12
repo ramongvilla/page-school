@@ -1,0 +1,18 @@
+
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #424f59;
+
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  font-weight: 700;
+  // color: rgba(0,0,0,.9);
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #5f7d95;
+  &:hover{
+    color: #1273eb;
+  }
+}

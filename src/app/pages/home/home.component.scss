@@ -2,17 +2,42 @@
   // height: 100vh;
   margin: 0 0 2rem 0;
 }
-.carousel-item img {
-  height: calc(100vh - 68px);
+.carousel-item  {
+  height: calc(100vh - 135px);
   background: #555555;
 }
 .carousel-caption h5,
 .carousel-caption p {
   color: #fff;
 }
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 7.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 0 !important;
+  color: #fff;
+  text-align: center;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 4rem !important;
+  margin-left: 15%;
+  list-style: none;
+}
+
 .container-row-cards {
   width: 80%;
-  margin: 0 auto 2rem auto;
+  margin: -95px auto 2rem auto;
   .box-card {
     min-width: 120px;
     width: 120px !important;
@@ -29,6 +54,8 @@
     padding: 0.4rem;
     gap: 0.8rem;
     transition: transform 0.3s ease-in-out;
+    z-index: 35000;
+    background: #fff;
     &:hover {
       cursor: pointer;
       transform: scale(1.1);
@@ -42,7 +69,7 @@
     }
   }
 }
-section.container-info-school {
+section.container-info-school,.container-info-school  {
   margin: 0 auto 2rem auto;
   width: 80%;
   gap: 2rem;
@@ -62,4 +89,31 @@ section.container-info-school {
       width: 100%;
     }
   }
+}
+.carousel-item .container-slide {
+  height: 450px;
+  margin: 0 auto;
+  width: 80%;
+  background: #555555;
+}
+.title{
+  color: #374957;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 20px 0;
+  @media screen and (min-width: 480px){
+    font-size: calc(15.23781px + 2.65879vw);
+
+  }
+}
+.secundario{
+  color: #5f7d95;
+  line-height: 1.6;
+  font-weight: 500;
+  // margin: .5rem 0 0 0 ;
+  @media screen and (min-width: 480px){
+    font-size: calc(11.74594px + .88626vw);
+  }
+
+
 }
