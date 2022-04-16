@@ -1,0 +1,19 @@
+<section class="container-section">
+  <h2 class="title-section d-block text-center">Noticias</h2>
+
+  <ng-container *ngFor="let notice of NEWS">
+    <div class="mb-5">
+      <span class="d-block text-center title mb-3">{{notice.titleSection}}</span>
+      <div class="wrapper-notice" [ngStyle]="{'flex-direction':notice.align === 'right' ? 'row-reverse' : 'row' }">
+        <div class="wrapper-text p-3">
+          <span class="mb-3">{{notice.section.titleNews}}</span>
+          <p>{{notice.section.description}}</p>
+        </div>
+        <div class="box-illustration">
+          <img [src]="notice.section.illustration" alt="">
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</section>
+

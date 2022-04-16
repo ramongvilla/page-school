@@ -1,0 +1,29 @@
+
+<section class="container-section">
+  <h2 class="title-section d-block text-center">Personal</h2>
+  <h5 class="subtitle d-block text-center">Director</h5>
+  <div class="container-primary mb-5">
+    <!-- <div></div> -->
+    <div class="wrapper-card">
+      <div class="box-img">
+        <img src="../../../assets/images/teacher.svg" alt="">
+      </div>
+      <div class="post-inner">
+        <span class="primario">{{directorName| uppercase}}</span>
+      </div>
+    </div>
+  </div>
+  <h5 class="subtitle d-block text-center">Maestros</h5>
+  <div class="container-grid">
+    <ng-container *ngFor="let maestros of MAESTROS">
+      <div class="wrapper-card">
+        <div class="box-img">
+          <img src="../../../assets/images/teacher.svg" alt="">
+        </div>
+        <div class="post-inner">
+          <span class="primario">{{maestros.name| uppercase}}</span>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</section>

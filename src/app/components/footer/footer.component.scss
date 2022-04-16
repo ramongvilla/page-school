@@ -11,6 +11,13 @@ footer.footer-box{
 
   }
 }
+.container-addres{
+  gap: 2.5rem;
+  @media (max-width: 1024px){
+    flex-direction: column!important;
+    align-items: center;
+  }
+}
 .container-bottom{
   gap: 1rem;
 
@@ -19,11 +26,16 @@ footer.footer-box{
     border-radius: 15px;
     width: 250px;
     height: 200px;
-    background: salmon;
+    background: #C4C4C4;
+    @media (max-width: 1024px){
+      width: 120px;
+      height: 120px;
+
+    }
 
   }
   .wrapper-maps{
-// width: 100%;
+// width: 50%;
   }
 }
 .iframe{
@@ -34,3 +46,14 @@ span{
   color: #fff;
 
 }
+p.primario{
+  font-weight: 500;
+    font-size: calc(7.07386px + 2.06795vw);
+}
+span.secundario{
+  // width: 200px;
+}
+i{
+  font-size: 1.3rem;
+}
+

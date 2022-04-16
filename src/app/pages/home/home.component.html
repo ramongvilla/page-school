@@ -42,7 +42,7 @@
     </button>
   </div>
 </div>
-<div class="container-row-cards d-flex flex-row justify-content-between">
+<div class="container-row-cards">
   <div class="box-card">
     <i class="fa-solid fa-school"></i>
     <span>Desarrollo Estudiantil</span>
@@ -69,7 +69,7 @@
   </div>
 </div>
 <!-- -------------| SECCION FIRST |-------------- -->
-<section class="container-info-school d-flex flex-row">
+<section class="container-info-school ">
     <p>
       <span class="title">Educacion al Siguiente Nivel</span>
       <span class="secundario">"Historia de la Priimaria"</span>
@@ -79,53 +79,76 @@
     </div>
 </section>
 <!-- -------------| SECCION ADMISIONES |-------------- -->
-<section class="container-info-school d-flex flex-row flex-row-reverse">
+<section class="container-info-school custom-reverse">
+  <div class="box-img">
+    <img src="" alt="">
+  </div>
     <p>
       <span class="title">Admisiones</span>
       <span class="secundario">Proceso de Inscripción</span>
       <button class="btn btn-success m-auto"> Descargar PDF</button>
     </p>
-    <div class="box-img">
-      <img src="" alt="">
-    </div>
 </section>
-<section class="mb-5">
+<section class="news mb-5">
   <h2 class="d-block text-center title">Noticias</h2>
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
+
+
+      <div class="carousel-item" [ngClass]="{'active': first}" *ngFor="let item of STATIC_NEWS let first = first" data-bs-interval="10000">
         <div class="container-slide">
-          kioña
+
+
+          <div class="wraper-news d-flex flex-row">
+
+            <div class="is-web" *ngFor="let item of STATIC_NEWS">
+              <div class="card mb-3">
+                <div class="box-img">
+                  <img [src]="item.illustration" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">{{item.title}}</h5>
+                  <p class="card-text">{{item.patagraph}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="is-movil">
+              <div class="card mb-3">
+                <div class="box-img">
+                  <img [src]="item.illustration" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">{{item.title}}</h5>
+                  <p class="card-text">{{item.patagraph}}</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
         </div>
-        <!-- <img src="..." class="d-block w-100" alt="..."> -->
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <div class="container-slide">
-          kioña
-        </div>
-        <!-- <img src="..." class="d-block w-100" alt="..."> -->
-      </div>
-      <div class="carousel-item">
-        <div class="container-slide">
-          kioña
-        </div>
-        <!-- <img src="..." class="d-block w-100" alt="..."> -->
-      </div>
+
+
     </div>
-    <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <i class="fa-solid fa-angle-left"></i>
     </button>
-    <button class="carousel-control-next bg-primary" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <i class="fa-solid fa-angle-right"></i>
     </button>
   </div>
 </section>
 <section>
 
   <h2 class="d-block text-center title">Contacto</h2>
-  <div class="container-info-school d-flex flex-row flex-row-reverse">
+  <div class="container-info-school d-flex ">
+    <div class="box-img">
+      <img src="" alt="">
+    </div>
     <form action="" class="w-100 d-flex flex-column">
     <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Nombre">
     <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Correo">
@@ -133,8 +156,5 @@
     <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Mensaje">
     <button class="btn btn-secondary ms-auto">Enviar</button>
   </form>
-  <div class="box-img">
-    <img src="" alt="">
-  </div>
 </div>
 </section>

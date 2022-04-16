@@ -1,0 +1,23 @@
+<div class="container-materias">
+  <h2 class="title-section d-block text-center">Materias</h2>
+  <div class="nav nav-tabs mb-5">
+    <ng-container *ngFor="let item of MATERIAS; let pos = index ">
+      <a class="nav-link " [ngClass]="{'active': indexGrado == pos}" aria-current="page" (click)="indexGrado = pos">
+        {{item.grado}}</a>
+    </ng-container>
+  </div>
+
+  <div class="container-grid">
+    <ng-container *ngFor="let materia of MATERIAS[indexGrado].materias">
+      <div class="wrapper-card">
+        <div class="box-img">
+          <img src="../../../assets/images/materias.svg" alt="">
+        </div>
+        <div class="post-inner">
+          <span class="primario">{{materia.name | uppercase}}</span>
+          <p class="secundario"> {{materia.descripton}}</p>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
