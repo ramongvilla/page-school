@@ -14,6 +14,7 @@ export class HeaderComponent implements OnInit {
     {label:'Materias',url:'/materias'},
     {label:'Personal',url:'/personal'},
     {label:'Contacto',url:'/contacto'},
+    {label:'En Vivo',url:'/live'},
   ]
 
   constructor() { }

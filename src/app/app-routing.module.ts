@@ -5,6 +5,7 @@ import { MateriasComponent } from './pages/materias/materias.component';
 import { NewsComponent } from './pages/news/news.component';
 import { PersonalComponent } from './pages/personal/personal.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { EnVivoComponent } from './pages/en-vivo/en-vivo.component';
 
 const routes: Routes = [
   {path:'home',component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'materias',component: MateriasComponent},
   {path:'personal',component: PersonalComponent},
   {path:'contacto',component: ContactoComponent},
+  {path:'live',component: EnVivoComponent},
   {path: '**', pathMatch: 'full', redirectTo:'home'}
 ];
 

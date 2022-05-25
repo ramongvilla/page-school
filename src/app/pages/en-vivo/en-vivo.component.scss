@@ -1,0 +1,46 @@
+.container-live {
+  display: flex;
+  height: 100vh;
+  .box-screen {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    background: hsl(0, 0%, 7%);
+    border-radius: 5px;
+    display: flex;
+
+    .spinner {
+      margin: auto;
+      border: 4px solid rgba(220, 203, 203, 0.3);
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+      border-left-color: transparent;
+
+      animation: spin 1s linear infinite;
+    }
+    .rec {
+      border-radius: 100%;
+      margin: 20px 20px 0 0;
+      height: 14px;
+      width: 14px;
+      animation: point 1s linear infinite;
+    }
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes point {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #990412;
+  }
+}

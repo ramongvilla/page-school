@@ -6,10 +6,11 @@
     <!-- <div></div> -->
     <div class="wrapper-card">
       <div class="box-img">
-        <img src="../../../assets/images/teacher.svg" alt="">
+        <img src="../../../assets/svg/director.svg" alt="">
       </div>
       <div class="post-inner">
         <span class="primario">{{directorName| uppercase}}</span>
+        <span class="ms-auto"> {{ puesto| uppercase}}</span>
       </div>
     </div>
   </div>
@@ -18,10 +19,11 @@
     <ng-container *ngFor="let maestros of MAESTROS">
       <div class="wrapper-card">
         <div class="box-img">
-          <img src="../../../assets/images/teacher.svg" alt="">
+          <img [src]="maestros.pic" alt="">
         </div>
         <div class="post-inner">
           <span class="primario">{{maestros.name| uppercase}}</span>
+          <span class="ms-auto mt-auto"> {{ maestros.puesto| uppercase}}</span>
         </div>
       </div>
     </ng-container>

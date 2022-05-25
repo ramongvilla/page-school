@@ -1,20 +1,19 @@
-.container-grid .wrapper-card {
+.wrapper-card {
   height: auto;
 }
-.container-primary{
-// width: 49.1%;
-width: 100%;
-// max-width: 310px;
-grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-gap: 1rem;
-display: flex;
-justify-content: center;
-.wrapper-card{
-  // margin: auto;
+.container-primary {
+  // width: 49.1%;
   width: 100%;
-  max-width: 401px;
-  // width: 100v;
-  // width: calc((310 * 100vh)/456);
-
-}
+  // max-width: 310px;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  .wrapper-card {
+    // margin: auto;
+    width: 100%;
+    max-width: 401px;
+    // width: 100v;
+    // width: calc((310 * 100vh)/456);
+  }
 }

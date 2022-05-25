@@ -10,6 +10,8 @@ import { NewsComponent } from './pages/news/news.component';
 import { MateriasComponent } from './pages/materias/materias.component';
 import { PersonalComponent } from './pages/personal/personal.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { EnVivoComponent } from './pages/en-vivo/en-vivo.component';
+import { AvisosComponent } from './pages/avisos/avisos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     NewsComponent,
     MateriasComponent,
     PersonalComponent,
-    ContactoComponent
+    ContactoComponent,
+    EnVivoComponent,
+    AvisosComponent
   ],
   imports: [
     BrowserModule,

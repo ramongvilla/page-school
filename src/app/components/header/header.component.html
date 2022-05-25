@@ -1,13 +1,16 @@
-<header>
+<header class="">
   <nav class="navbar navbar-expand-lg navbar-light bg-light ps-5 pe-5">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Educadores de Nuevo León</a>
+      <img class="logo-school" src="../../../assets/svg/logo-school.svg" alt="">
+      <p class="navbar-brand d-flex flex-column d-none d-lg-flex">
+        <span>Educadores de</span>
+        <span>Nuevo León</span>
+       </p>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-
         <ng-container *ngFor="let item of NAV">
           <a class="nav-link" routerLinkActive="nav-link-active" [routerLink]="item.url">{{item.label}}</a>
         </ng-container>

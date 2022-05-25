@@ -15,7 +15,7 @@ export class NewsComponent implements OnInit {
           titleNews: 'Lorem ipsum dolor sit amet',
           description:
             'Fugit omnis maiores quaerat culpa. Sequi nemo quos, cumque delectus doloremque excepturi officiis velit inventore in quas eum iure mollitia repellendus reiciendis.',
-          illustration: '../../../assets/images/students-knowing-the-right-answer.svg',
+          illustration: '../../../assets/svg/news1.svg',
         },
       // ],
     },
@@ -27,7 +27,7 @@ export class NewsComponent implements OnInit {
           titleNews: 'Lorem ipsum dolor sit amet',
           description:
             'Fugit omnis maiores quaerat culpa. Sequi nemo quos, cumque delectus doloremque excepturi officiis velit inventore in quas eum iure mollitia repellendus reiciendis.',
-          illustration: '../../../assets/images/book-with-green-board-background.svg',
+          illustration: '../../../assets/svg/news2.svg',
         },
       // ],
     },
