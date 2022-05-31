@@ -12,10 +12,10 @@ export class NewsComponent implements OnInit {
       align: 'left',
       section:
         {
-          titleNews: 'Lorem ipsum dolor sit amet',
+          titleNews: 'Generación 2016-2022',
           description:
-            'Fugit omnis maiores quaerat culpa. Sequi nemo quos, cumque delectus doloremque excepturi officiis velit inventore in quas eum iure mollitia repellendus reiciendis.',
-          illustration: '../../../assets/svg/news1.svg',
+            'Felicidades a la generación 2016-2022, se les desea un camino de mucho éxito y prosperidad, esta siempre será su escuela" y la foto que mandare mas tardar mañana',
+          illustration: './../../assets/svg/descargas.jpeg',
         },
       // ],
     },
@@ -24,9 +24,9 @@ export class NewsComponent implements OnInit {
       align: 'right',
       section:
         {
-          titleNews: 'Lorem ipsum dolor sit amet',
+          titleNews: 'Reinscripción',
           description:
-            'Fugit omnis maiores quaerat culpa. Sequi nemo quos, cumque delectus doloremque excepturi officiis velit inventore in quas eum iure mollitia repellendus reiciendis.',
+            ' Recuerda realizar el proceso de inscripción / Reinscripción antes del 5 de Julio (Revisar PDF)',
           illustration: '../../../assets/svg/news2.svg',
         },
       // ],

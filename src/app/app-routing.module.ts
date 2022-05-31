@@ -6,6 +6,7 @@ import { NewsComponent } from './pages/news/news.component';
 import { PersonalComponent } from './pages/personal/personal.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { EnVivoComponent } from './pages/en-vivo/en-vivo.component';
+import { TalleresComponent } from './pages/talleres/talleres.component';
 
 const routes: Routes = [
   {path:'home',component: HomeComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'personal',component: PersonalComponent},
   {path:'contacto',component: ContactoComponent},
   {path:'live',component: EnVivoComponent},
+  {path:'talleres',component: TalleresComponent},
   {path: '**', pathMatch: 'full', redirectTo:'home'}
 ];
 

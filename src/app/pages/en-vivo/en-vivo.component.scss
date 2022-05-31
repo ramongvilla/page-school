@@ -1,5 +1,6 @@
 .container-live {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   .box-screen {
     margin: auto;
@@ -36,6 +37,16 @@
       width: 14px;
       animation: point 1s linear infinite;
     }
+  }
+}
+h3{
+  transform: translateY(-100px);
+  width: 80%;
+  text-align: center;
+  display: block;
+  @media (max-width: 1024px) {
+    transform: translateY(-60px);
+
   }
 }
 @keyframes spin {

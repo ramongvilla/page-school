@@ -15,37 +15,37 @@ export class MateriasComponent implements OnInit {
           name: 'Lengua Materna (español)',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/espanol.svg',
         },
         {
           name: 'Matemáticas',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/matematicas.svg',
         },
         {
           name: 'Lengua Extranjera (Inglés)',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ingles.svg',
         },
         {
           name: 'Conicimiento del medio',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/medio.svg',
         },
         {
           name: 'Artes',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/artes.svg',
         },
         {
           name: 'Educación Física',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/efisica.svg',
         },
       ],
     },
@@ -56,37 +56,37 @@ export class MateriasComponent implements OnInit {
           name: 'Lengua Materna (español)',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/espanol.svg',
         },
         {
           name: 'Matemáticas',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/matematicas.svg',
         },
         {
           name: 'Lengua Extranjera (Inglés)',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ingles.svg',
         },
         {
           name: 'Conicimiento del medio',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/medio.svg',
         },
         {
           name: 'Artes',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/artes.svg',
         },
         {
           name: 'Educación Física',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/efisica.svg',
         },
       ],
     },
@@ -97,49 +97,49 @@ export class MateriasComponent implements OnInit {
           name: 'Español',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/espanol.svg',
         },
         {
           name: 'Matemáticas',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/matematicas.svg',
         },
         {
           name: 'Segunda Lengua: Inglés',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ingles.svg',
         },
         {
           name: 'Ciencias Naturales',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ciencias.svg',
         },
         {
           name: 'La entidad Donde Vivo',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/entidad.svg',
         },
         {
           name: 'Formación Cívica y Ética',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/cye.svg',
         },
         {
           name: 'Artes',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/artes.svg',
         },
         {
           name: 'Educación Fisica',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/efisica.svg',
         },
       ],
     },
@@ -150,55 +150,55 @@ export class MateriasComponent implements OnInit {
           name: 'Español',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/espanol.svg',
         },
         {
           name: 'Matemáticas',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/matematicas.svg',
         },
         {
           name: 'Segunda Lengua: Inglés',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ingles.svg',
         },
         {
           name: 'Ciencias Naturales',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ciencias.svg',
         },
         {
           name: 'Geografía',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/geografia.svg',
         },
         {
           name: 'Historia',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/historia.svg',
         },
         {
           name: 'Formación Cívica y Ética',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/cye.svg',
         },
         {
           name: 'Artes',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/artes.svg',
         },
         {
           name: 'Educación Fisica',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/efisica.svg',
         },
       ],
     },
@@ -209,55 +209,55 @@ export class MateriasComponent implements OnInit {
           name: 'Español',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/espanol.svg',
         },
         {
           name: 'Matemáticas',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/matematicas.svg',
         },
         {
           name: 'Segunda Lengua: Inglés',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ingles.svg',
         },
         {
           name: 'Ciencias Naturales',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ciencias.svg',
         },
         {
           name: 'Geografía',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/geografia.svg',
         },
         {
           name: 'Historia',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/historia.svg',
         },
         {
           name: 'Formación Cívica y Ética',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/cye.svg',
         },
         {
           name: 'Artes',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/artes.svg',
         },
         {
           name: 'Educación Fisica',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/efisica.svg',
         },
       ],
     },
@@ -268,55 +268,55 @@ export class MateriasComponent implements OnInit {
           name: 'Español',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/espanol.svg',
         },
         {
           name: 'Matemáticas',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/matematicas.svg',
         },
         {
           name: 'Segunda Lengua: Inglés',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ingles.svg',
         },
         {
           name: 'Ciencias Naturales',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/ciencias.svg',
         },
         {
           name: 'Geografía',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/geografia.svg',
         },
         {
           name: 'Historia',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/historia.svg',
         },
         {
           name: 'Formación Cívica y Ética',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/cye.svg',
         },
         {
           name: 'Artes',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/artes.svg',
         },
         {
           name: 'Educación Fisica',
           descripton:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae tempore labore totam sequi sunt eius cupiditate? Quis consectetur tenetur accusamus provident cupiditate qui voluptatibus harum, quae esse deleniti, sequi illum!',
-          img: '',
+          img: '../../../assets/svg/efisica.svg',
         },
       ],
     },

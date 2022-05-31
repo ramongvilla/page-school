@@ -1,0 +1,16 @@
+
+<section class="container-section">
+  <h2 class="title-section d-block text-center">Talleres</h2>
+  <div class="container-grid">
+    <ng-container *ngFor="let maestros of MAESTROS">
+      <div class="wrapper-card">
+        <div class="box-img">
+          <img [src]="maestros.pic" alt="">
+        </div>
+        <div class="post-inner">
+          <span class="primario">{{maestros.name| uppercase}}</span>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</section>

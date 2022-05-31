@@ -1,13 +1,14 @@
 <section class="container-section">
   <h2 class="title-section d-block text-center">Noticias</h2>
 
-  <ng-container *ngFor="let notice of NEWS">
+  <ng-container *ngFor="let notice of NEWS; let f = first">
     <div class="mb-5">
-      <span class="d-block text-center title mb-3">{{notice.titleSection}}</span>
+      <!-- <span class="d-block text-center title mb-3">{{notice.titleSection}}</span> -->
       <div class="wrapper-notice" [ngStyle]="{'flex-direction':notice.align === 'right' ? 'row-reverse' : 'row' }">
         <div class="wrapper-text p-3">
           <span class="mb-3">{{notice.section.titleNews}}</span>
           <p>{{notice.section.description}}</p>
+          <a *ngIf="!f"  _ngcontent-c15="" class="btn btn-success ms-auto me-auto mt-5" download="proceso de admision.pdf" href="../../../assets/pdf/SKM_C364e22052914460 (1).pdf">Descargar Solicitud Academica</a>
         </div>
         <div class="box-illustration">
           <img [src]="notice.section.illustration" alt="">

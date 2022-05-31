@@ -11,13 +11,14 @@
     <ng-container *ngFor="let materia of MATERIAS[indexGrado].materias">
       <div class="wrapper-card">
         <div class="box-img">
-          <img src="../../../assets/images/materias.svg" alt="">
+          <img [src]="materia.img" alt="">
+
         </div>
         <div class="post-inner">
           <span class="primario">{{materia.name | uppercase}}</span>
-          <p class="secundario"> {{materia.descripton}}</p>
         </div>
       </div>
     </ng-container>
   </div>
 </div>
+<!-- <img src="../../../assets/svg/geografia.svg" alt=""> -->

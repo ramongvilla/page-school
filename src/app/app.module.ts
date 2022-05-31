@@ -12,6 +12,7 @@ import { PersonalComponent } from './pages/personal/personal.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { EnVivoComponent } from './pages/en-vivo/en-vivo.component';
 import { AvisosComponent } from './pages/avisos/avisos.component';
+import { TalleresComponent } from './pages/talleres/talleres.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AvisosComponent } from './pages/avisos/avisos.component';
     PersonalComponent,
     ContactoComponent,
     EnVivoComponent,
-    AvisosComponent
+    AvisosComponent,
+    TalleresComponent
   ],
   imports: [
     BrowserModule,

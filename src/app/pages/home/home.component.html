@@ -30,36 +30,41 @@
 
 <!-- ------------------------- -->
 <div class="container-row-cards">
-  <div class="box-card">
+  <div class="box-card" [routerLink]="'/talleres'">
     <i class="fa-solid fa-school"></i>
     <span>Desarrollo Estudiantil</span>
   </div>
-  <div class="box-card">
+  <!-- <div class="box-card" href="#noticias"> -->
+  <div class="box-card" [routerLink]="'/noticias'">
     <i class="fa-solid fa-graduation-cap"></i>
     <span>Graduaciones</span>
   </div>
-  <div class="box-card">
+  <div class="box-card" [routerLink]="'/personal'">
     <i class="fa-solid fa-users"></i>
     <span>Entorno Social</span>
   </div>
-  <div class="box-card">
+  <a class="box-card" href="#ubicacion">
     <i class="fa-solid fa-location-dot"></i>
     <span>Ubicación</span>
-  </div>
-  <div class="box-card">
+  </a>
+  <a class="box-card" href="#ubicacion">
     <i class="fa-solid fa-phone-flip"></i>
     <span>Telefono</span>
-  </div>
-  <div class="box-card">
+  </a>
+  <a class="box-card" href="#ubicacion">
     <i class="fa-solid fa-envelope"></i>
     <span>Correo</span>
-  </div>
+  </a>
 </div>
 <!-- -------------| SECCION FIRST |-------------- -->
 <section class="container-info-school ">
   <p>
     <span class="title">Educacion al Siguiente Nivel</span>
-    <span class="secundario">"Historia de la Primaria"</span>
+    <span class="secundario">"La historia comienza desde su fundación el 16 de Septiembre de 1988 por el profesor José
+      Antonio Guzmán Arcos, en sus comienzos se contaba con un total de 230 alumnos aproximadamente y solamente 8
+      salones, Su escudo representa los valores de la institución tanto académicos como personales y profesionales es
+      por ellos que después de 34 años siguen siendo el pilar de su esfuerzo y trabajo diario para formar a personas de
+      provecho a la sociedad."</span>
   </p>
   <div class="box-img">
     <img src="../../../assets/svg/educacion.svg" alt="">
@@ -73,9 +78,10 @@
   <p>
     <span class="title">Admisiones</span>
     <span class="secundario">Proceso de Inscripción</span>
-    <button class="btn btn-success ms-auto me-auto mt-5"> Descargar PDF</button>
+    <a _ngcontent-c15="" class="btn btn-success ms-auto me-auto mt-5" download="proceso de admision.pdf" href="../../../assets/pdf/Proceso de Inscripción.pdf">Descargar PDF</a>
   </p>
 </section>
 
 <app-avisos></app-avisos>
 <app-contacto></app-contacto>
+<div id="ubicacion"></div>
